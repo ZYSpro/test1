@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "comps/*": ["src/components/*"],
+      "apis/*": ["src/apis/*"],
+      "views/*": ["src/views/*"],
+      "utils/*": ["src/utils/*"],
+      "router/*": ["src/router/*"],
+      "layouts/*": ["src/layouts/*"],
+      "assets/*": ["src/assets/*"],
+      "config/*": ["src/config/*"],
+      "hooks/*": ["src/hooks/*"],
+      "enums/*": ["src/enums/*"],
+      "directives/*": ["src/directives/*"],
+      "store/*": ["src/store/*"],
+      "plugins/*": ["src/plugins/*"],
+      "types/*": ["src/types/*"],
+      "styles/*": ["src/styles/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
