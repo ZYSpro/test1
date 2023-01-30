@@ -1,0 +1,3 @@
+[submodule "frontend/editor"]
+	path = frontend/editor
+	url = git@github.com:ZYSpro/test2.git
